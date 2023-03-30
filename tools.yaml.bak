@@ -1,0 +1,133 @@
+信息收集:
+  New御剑1.5_加强字典:
+    cd info/New御剑1.5_加强字典版 && New御剑1.5.exe
+
+  Fofa_viewer v1.8:
+    cd info/fofaviewer && {java8_path} -jar fofaviewer.jar
+
+  fofax_v0.1.42:
+    '{startCmd} "cd info/fofax_v0.1.42"'
+
+  DirSearch:
+    '{startCmd} "cd info/DirSearch"'
+  
+  Oneforall:
+    '{startCmd} cd info/OneForAll' 
+
+  动态备份文件扫描:
+    '{startCmd} "cd info/ihoneyBakFileScan_Modify"'
+  
+  LeakInfo_js_finder:
+    '{startCmd} cd info/leakinfo_finder' 
+
+  PackerFuzzer_v1.4:
+    '{startCmd} cd info/Packer-Fuzzer' 
+  
+  JSINFO-SCAN:
+    '{startCmd} cd info/JSINFO-SCAN'
+
+  Fuff_v1.5:
+    '{startCmd} "cd info/ffuf_1.5.0"'
+
+  EmailAll:
+    '{startCmd} "cd info/EmailAll"'
+
+漏洞扫描:
+  ApacheTomcatScanner:
+    '{startCmd} "cd scan/ApacheTomcatScanner"' 
+  Xray高级版 1.9.3:
+    '{startCmd} "cd scan/xray_1.9.3_Cracked" '
+  Sqlmap:
+    '{startCmd} "cd scan/sqlmap"'
+  MYExploit:
+    cd scan/MYExploit && {java8_path} -jar MYExploit.jar
+  神机 v1.9:
+    cd scan/神机 && {java8_path} -jar SJ-V1.9.jar 
+  Shiro-exp_v2.51_by飞鸿:
+    cd scan/shiro/ShiroExploit.V2.51 && {java8_path} -jar ShiroExploit.jar 
+  ShiroScan反序列化回显工具v1.1_fupinglee:
+    cd scan/shiro && {java8_path} -jar ShiroScan-1.1.jar 
+  Shiro attack v2.2_j1anFen:
+    cd scan/shiro/shiro_attack_2.2 && {java8_path} -jar shiro_attack-2.2.jar 
+  Spring 漏洞利用工具v1.3:
+    cd scan/Spring/SpringBootExploit-1.3-SNAPSHOT-all && {java8_path} -jar SpringBootExploit-1.3-SNAPSHOT-all.jar 
+  ThinkPHP综合利用工具 v2.3:
+    cd scan/thinkphp && {java8_path} -jar ThinkPHP.V2.3.by.jar
+  ThinkPhp漏洞利用工具 v1.2:
+    cd scan/thinkphp && {java8_path} -jar ThinkphpGUI-1.2-SNAPSHOT.jar 
+  ThinkPhp命令执行检测工具:
+    cd scan/thinkphp && {java8_path} -jar thinkphp命令执行检测工具.jar 
+  Weblogic-framework v0.2.3:
+    cd scan/weblogic/weblogic-framework-0.2.3 && {java8_path} -jar weblogic-framework-0.2.3-all-jar-with-dependencies.jar 
+  Weblogic-Exp-Snapshot-all v1.0:
+    cd scan/weblogic && {java8_path} -jar weblogic_exploit-1.0-SNAPSHOT-all.jar 
+  Tomcat弱密码检查:
+    cd scan/tomcat && {java8_path} -jar tomcat.jar
+  Log4j:
+    cd scan/Log4j/ && {java8_path} -jar woodpecker-framework.1.3.3.jar 
+  
+  
+其他漏洞扫描:
+  深X服edr任意用户登陆检测工具:
+    cd otherScan/深X服edr检测 && {java8_path} -jar 深X服edr任意用户登陆检测工具.jar 
+  OracleShellv1.0:
+    cd otherScan/OracleShell/ && {java8_path} -jar oracleShell.jar 
+  FastJson反序列化检查工具:
+    cd otherScan/fastjson反序列化 && json反序列化检查工具.exe  
+  阿里云Ak利用工具:
+    cd otherScan/阿里云Ak利用工具 && Aliyun-.AK.Tools-V1.2.exe
+  登录爆破Loginboom:
+    '{startCmd} "cd otherScan/LoginBoom"'
+  iisScanIIS10_Exp:
+    '{startCmd} "cd otherScan/iisScaner"'
+  hostscan:
+    '{startCmd} "cd otherScan/hostscan"'
+  WebCrack:
+    '{startCmd} "cd otherScan/WebCrack"'
+
+渗透测试:
+  Godzilla v4.0:
+    cd pentest/Godzilla && {java8_path} -jar Godzilla.jar
+  
+  冰蝎 T00ls 专版v3.0 Beta 11:
+    cd pentest/Behinder T00l专版 && {java8_path} -jar Behinder.jar 
+  
+  冰蝎魔改版 v3.3.2:
+    cd pentest/Behinder-Mode && {java8_path} -jar Behinder-Mode.jar 
+  
+  天蝎权限管理工具:
+    cd pentest/TianXie && {java8_path} -jar 天蝎权限管理工具.jar 
+
+  BurpSuite_pro v2022.3 :
+    cd pentest/BurpSuite_Pro && {java9_path} -javaagent:BurpSuiteLoader_v2022.3.jar -noverify -jar burpsuite_pro_v2022.3.jar
+  
+  BurpSuiteProv2023.2 :
+    cd pentest/BurpSuiteProv2023.2 && {java17_path} -Dsun.java2d.uiScale=1 --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED --add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED -javaagent:BurpLoaderKeygen.jar -noverify -jar burpsuite_pro_v2023.1.2.jar
+
+  MDUT利用工具:
+    cd pentest/Multiple.Database.Utilization.Tools.-.v2.0.6 && {java8_path} -jar MDUT.jar 
+  
+  Salas数据库利用工具:
+    cd pentest/Sylas && Sylas-T.exe
+
+  # https://github.com/lovechoudoufu/cobaltstrike4.5_cdf
+  cobaltstrike4.5_cdf:
+    cd pentest/CobaltStrike/cs4.5 && {java8_path} -XX:ParallelGCThreads=4 -XX:+AggressiveHeap -XX:+UseParallelGC -Xms512M -Xmx1024M -jar cs.jar
+
+辅助工具:
+  ddddocr服务器:
+    '{startCmd} "cd other/ddddocr && python ddddocr_server.py"'
+  mysql 蜜罐检查:
+    cd other/mysql_honey_check && WhetherMysqlSham.exe
+  蓝队分析辅助工具箱:
+    cd other/蓝队分析辅助工具箱V3.6 && {java8_path} -jar BlueTeamToolsV3.6.jar
+  jd-gui:
+    cd other/jd-gui && {java8_path} -jar jd-gui-1.6.6.jar
+
+Fuzzing字典:
+  打开Fuzzing字典目录:
+    start fuzzDicts
+  复制符合四个条件的6位数密码路径:
+    echo {base_dir}\fuzzDicts\passwordDict\RW_Password\符合四个条件的6位数密码1633条.txt | clip
+
+
