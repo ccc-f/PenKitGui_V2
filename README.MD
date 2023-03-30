@@ -14,7 +14,7 @@ V1 版本：<https://github.com/ccc-f/PenKitGui>
 
 效果图：
 
-![main](../imgs/main.png)
+![main](./imgs/main.png)
 
 ## 如何使用
 
