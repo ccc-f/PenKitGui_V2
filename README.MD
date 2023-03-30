@@ -14,25 +14,32 @@ V1 版本：<https://github.com/ccc-f/PenKitGui>
 
 ## 如何使用
 
-1、**首先把你想要加入到工具箱的工具转移到该目录下，分类保存好**
+1、**下载 Java_Path**
+
+奶牛快传无需客户端、无需登录
+<https://cowtransfer.com/s/f8cac3b5133d4f>
+
+下载后解压放到该目录下
+
+2、**首先把你想要加入到工具箱的工具转移到该目录下，分类保存好**
 
 方便编写 tools.yaml 文件
 
-2、**编写 tools.yaml 文件**
+3、**编写 tools.yaml 文件**
 
 可参考 tools.yaml.bak 文件
 
-3、**安装依赖库**
+4、**安装依赖库**
 
 pip install -r requirements.txt
 
-4、**每次修改 tools.yaml 文件需要重新生成客户端**
+5、**每次修改 tools.yaml 文件需要重新生成客户端**
 
 python codeBuild.py
 
 运行完该命令后，会生成两个文件 penkit.py、penkitgui.py，无需理会
 
-5、**运行**
+6、**运行**
 
 debug 模式运行，双击 penkitgui.bat
 
